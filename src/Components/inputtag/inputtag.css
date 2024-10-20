@@ -1,0 +1,18 @@
+.input_box input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: rgb(38, 37, 37); 
+    background-color: rgba(255, 255, 255, 0.5); 
+    margin-top: 5px;
+    margin: 10px auto 10px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.input_box label {
+    display: block;
+    margin-bottom: 5px; 
+    font-weight: bold;
+    margin-top: 5px;
+}

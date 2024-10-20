@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.wrapper{
+    display: flex; 
+  justify-content: center; 
+  align-items: center; 
+    width: 90%;
+    padding:30px;
+    max-width: 1000px;
+    height:600px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: 0 0 10px;
+    border-radius: 20px;
+}
+.aa {
+    display: flex;
+    border-radius: 20px; 
+    overflow: hidden; 
+    height: 60vh;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+
+.img_cont{
+    flex: 1;
+    overflow:hidden;
+    
+}
+
+.side_img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.form_cont{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('../Assets/schlbus.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.side_form{
+    width:80%;
+    max-width: 400px;
+    padding: 10px;
+}
+
+.side_form h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button1 {
+    
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 50%;
+    font-size: 16px;
+    margin: 30px auto 10px; 
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.button1:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
